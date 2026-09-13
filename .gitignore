@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+env/
+
+# Streamlit secrets and local configuration
+.streamlit/secrets.toml
+.env
+
+# Generated model artifacts
+models/*.pkl
+
+# Generated synthetic data (created automatically on first run)
+data/student_data.csv
+
+# Operating system and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
